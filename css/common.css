@@ -12,3 +12,26 @@
     color: #212121;
     line-height: 1.5;
   }
+
+  .gallery {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .gallery li {
+    margin-right: 10px;
+  }
+
+  .gallery img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    margin: 5px;
+  }
